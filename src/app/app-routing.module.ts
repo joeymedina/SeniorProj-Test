@@ -12,3 +12,10 @@ const routes: Routes = [
   {path: 'friends', component: FriendsComponent}
 
 ];
+@NgModule({
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
+})
+export class AppRoutingModule {
+
+}
