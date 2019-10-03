@@ -8,6 +8,10 @@
     width:100%;
   }
 
+.form-control{
+  width:200px;
+  height:33px;
+}
   html {
     margin: 20px auto;
   }
