@@ -3,3 +3,26 @@
     margin-left: 7px;
 }
 
+.navbar-header{
+    margin-left:5px;
+    width:100%;
+  }
+
+  html {
+    margin: 20px auto;
+  }
+  .btn-search {
+        background: #424242;
+        border-radius: 0;
+        color: #fff;
+        border-width: 0.5px;
+        border-style: solid;
+        border-color: #1c1c1c;
+      }
+      .btn-search:link, .btn-search:visited {
+        color: #fff;
+      }
+      .btn-search:active, .btn-search:hover {
+        background: #1c1c1c;
+        color: #fff;
+      }

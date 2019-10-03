@@ -6,10 +6,10 @@ import { Injectable } from '@angular/core';
 export class DataService {
 
   contacts = [
-    {id: 1, name: 'Contact 123', description: 'Contact 001 des', email: 'c001@email.com'},
-    {id: 2, name: 'Contact 002e', description: 'Contact 002 des', email: 'c002@email.com'},
-    {id: 3, name: 'Contact 003', description: 'Contact 003 des', email: 'c003@email.com' },
-    {id: 4, name: 'Contact 0053', description: 'Contact 004 des', email: 'c004@email.com' }
+    {id: 1, name: 'Joey', description: "It's ya boy sad man", email: 'joeymedina@ksu.edu'},
+    {id: 2, name: 'Luke', description: 'memes memes memes', email: 'luke@gmail.com'},
+    {id: 3, name: 'Josh', description: 'I am cool', email: 'josh@gmail.com' },
+    {id: 4, name: 'Deeto', description: "Yo, I'm deeto", email: 'deeto@gmail.com' }
   ];
 
   constructor() { }
